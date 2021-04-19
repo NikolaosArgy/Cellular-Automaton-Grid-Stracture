@@ -54,7 +54,7 @@ boolean toggleValue13 = false;
 boolean toggleValue14 = true;
 boolean toggleValue15 = false;
 
-PImage yolo;
+PImage reference;
 
 void setup()
 {
@@ -78,7 +78,7 @@ void setup()
     }
   }
 
-  yolo = loadImage("yo.png");
+  reference = loadImage("ref.png");
 
   ui.addToggle("toggleValue").setSize(100, 17).setPosition(10, 30).setCaptionLabel("ON/OFF").setColorLabel(0);
   ui.addSlider("sliderValue").setSize(100, 17).setPosition(10, 60).setRange(0, 255).setCaptionLabel("Fill").setValue(0).setColorLabel(0) ;
@@ -149,7 +149,7 @@ void initUI() {
   hint(DISABLE_DEPTH_TEST);
   cam.beginHUD();
   ui.draw();
-  image(yolo, 10, 400, 100, 110);
+  image(reference, 10, 400, 100, 110);
   cam.endHUD();
   hint(ENABLE_DEPTH_TEST);
 }
