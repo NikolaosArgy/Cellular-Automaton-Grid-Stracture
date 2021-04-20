@@ -1,6 +1,8 @@
 # Cellular-Automaton-Grid-Stracture
 Cellular Automaton Grid Stracture is a project created using Processing.
 
+Inspired by [Cidori](https://gr.pinterest.com/afiqxmustafa/cidori/) structures from Kengo-Kuma.
+
 First, make sure to download and install [Processing](https://processing.org/download/).
 
 Next download/clone the repository.
