@@ -11,5 +11,6 @@ After you open the file go to Sketch > Import Library > Add Library and install 
 
 Video Preview: https://vimeo.com/215393716
 
+<img src="images/grid1.PNG" width="200"> <img src="images/grid2.PNG" width="200">
 
 
